@@ -1,6 +1,4 @@
-# Algorithms and Data Structures
-
-## Big O Rule
+# Big O Rule
 
 ### 1. Worst Case
 
