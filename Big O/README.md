@@ -79,3 +79,10 @@ printAllNumbersAndPairSums([1, 2, 3, 4, 5]);
 // X: O(n + n^2)
 // O: O(n^2)  -> only leave the most significant part
 ```
+
+## What causes Space complexity?
+
+-   variables
+-   data structures
+-   function calls
+-   allocations
