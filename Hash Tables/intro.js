@@ -22,3 +22,9 @@ user.scream(); // O(1)
 
 // O(n/k) *k is the size of hash table
 // = O(n)
+
+// PROS
+// Fast lookup, inserts, flexible keys(JS map)
+
+// CONS
+// Unordered, Slow key iteration
