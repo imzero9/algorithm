@@ -1,11 +1,14 @@
-const romanToInt = (str) => {
+const romanToInt = (s) => {
     const obj = { M: 1000, D: 500, C: 100, L: 50, X: 10, V: 5, I: 1 };
-    let value = 0;
+    let result = 0;
 
-    for (let i = 0; i < str.length; i += 1) {
-        obj[str[i]] < obj[trs[i + 1]]
-            ? (value -= obj[str[i]])
-            : (value += obj[str[i]]);
+    const splitted = s.split("").map((key) => obj[key]);
+
+    for (let i = 0; i < splitted.length; i++) {
+        splitted[i] < splitted[i + 1]
+            ? (result -= splitted[i])
+            : (result += splitted[i]);
     }
-    return value;
+
+    return result;
 };
